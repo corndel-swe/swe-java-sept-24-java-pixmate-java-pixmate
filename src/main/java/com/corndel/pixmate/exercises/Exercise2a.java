@@ -1,22 +1,21 @@
 package com.corndel.pixmate.exercises;
 
 /**
- * @see <a href="https://tech-docs.corndel.com/java/loop-control-flow.html">Loop Control Flow in Java</a>
+ * @see <a href="https://tech-docs.corndel.com/java/nested-loops.html">Nested Loops in Java</a>
  */
-public class Exercise2b {
+public class Exercise3 {
 
   /**
-   * Finds the index of the first element in an array that is smaller than the element before it.
+   * Given a grid of numbers (an array of arrays), count how many are larger than 10.
    * <p>
-   * For example, if the input array is [10, 12, 15, 14, 16, 20], the method returns 3. 
-   * If no element is smaller than its predecessor, such as in [5, 10, 15, 20], the method returns -1.
+   * For example, if the input grid is [ [3, 12, 1], [19, 10, 11], [9, 5, 105] ], the method returns 4.
    * </p>
    * 
-   * @param numbers an array of numbers to be examined
-   * @return the index of the first element that is smaller than its predecessor, or -1 if no such element is found
+   * @param grid an array of arrays of numbers
+   * @return the count of numbers larger than 10
    */
-  public static int stepDown(int[] numbers) {
+  public static int gridLimit(int[][] grid) {
     // TODO
-    return -1;
+    return 0;
   }
 }
