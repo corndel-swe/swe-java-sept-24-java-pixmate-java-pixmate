@@ -1,21 +1,20 @@
 package com.corndel.pixmate.exercises;
 
 /**
- * @see <a href="https://tech-docs.corndel.com/java/while-loops.html">While Loops in Java</a>
- * @see <a href="https://tech-docs.corndel.com/java/for-loops.html">For Loops in Java</a>
+ * @see <a href="https://tech-docs.corndel.com/java/for-each-loops.html">For-Each Loops in Java</a>
  */
-public class Exercise1a {
+public class Exercise1b {
 
   /**
-   * Adds together all the positive even numbers smaller than or equal to n.
+   * Adds together all the numbers in the array.
    * <p>
-   * For example, if n = 8, the method returns 20 (2 + 4 + 6 + 8).
+   * For example, if the input array is [1, 3, 7], the method returns 11.
    * </p>
    * 
-   * @param n the upper limit (inclusive)
-   * @return the sum of the even numbers smaller than or equal to n
+   * @param arr an array of numbers
+   * @return the sum of the array
    */
-  public static int addEven(int n) {
+  public static int sumArray(int[] arr) {
     // TODO
     return 0;
   }
