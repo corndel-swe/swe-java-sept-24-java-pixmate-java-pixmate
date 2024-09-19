@@ -10,36 +10,36 @@ public class Exercise1aTest {
   // should return 20 for n=8
   @Test
   void eight() {
-    assertEquals(addEven(8), 20);
+    assertEquals(20, addEven(8));
   }
 
   // should return 0 for n=1
   @Test
   void one() {
-    assertEquals(addEven(1), 0);
+    assertEquals(0, addEven(1));
   }
 
   // should handle a large number
   @Test
   void big() {
-    assertEquals(addEven(100), 2550);
+    assertEquals(2550, addEven(100));
   }
 
   // should return 2 for n=2
   @Test
   void two() {
-    assertEquals(addEven(2), 2);
+    assertEquals(2, addEven(2));
   }
 
   // should handle odd numbers
   @Test
   void odd() {
-    assertEquals(addEven(7), 12); // 2 + 4 + 6 = 12
+    assertEquals(12, addEven(7)); // 2 + 4 + 6 = 12
   }
 
   // should handle even numbers
   @Test
   void even() {
-    assertEquals(addEven(10), 30); // 2 + 4 + 6 + 8 + 10 = 30
+    assertEquals(30, addEven(10)); // 2 + 4 + 6 + 8 + 10 = 30
   }
 }
