@@ -1,15 +1,19 @@
 package com.corndel.pixmate.exercises;
 
+/**
+ * @see <a href="https://tech-docs.corndel.com/java/while-loops.html">While Loops in Java</a>
+ * @see <a href="https://tech-docs.corndel.com/java/for-loops.html">For Loops in Java</a>
+ */
 public class Exercise1a {
-  // https://tech-docs.corndel.com/java/while-loops.html
-  // https://tech-docs.corndel.com/java/for-loops.html
 
   /**
-   * Adds together all the positive even numbers smaller than or equal to n
-   *
-   * @example // returns 20 (= 2 + 4 + 6 + 8) addEven(8)
-   * @param {int} n - The upper limit
-   * @returns {int} The sum of the even numbers smaller than or equal to n
+   * Adds together all the positive even numbers smaller than or equal to n.
+   * <p>
+   * For example, if n = 8, the method returns 20 (2 + 4 + 6 + 8).
+   * </p>
+   * 
+   * @param n the upper limit (inclusive)
+   * @return the sum of the even numbers smaller than or equal to n
    */
   public static int addEven(int n) {
     // TODO
