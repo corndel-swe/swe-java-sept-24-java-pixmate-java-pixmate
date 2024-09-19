@@ -11,27 +11,27 @@ public class Exercise1bTest {
   // should return the sum of all numbers in an array
   @Test
   void sum() {
-    assertEquals(sumArray(new int[] { 1, 2, 3, 4, 5 }), 15);
-    assertEquals(sumArray(new int[] { 10, -2, 3 }), 11);
+    assertEquals(15, sumArray(new int[] { 1, 2, 3, 4, 5 }));
+    assertEquals(11, sumArray(new int[] { 10, -2, 3 }));
   }
 
   // should return 0 for an empty array
   @Test
   void empty() {
-    assertEquals(sumArray(new int[] {}), 0);
+    assertEquals(0, sumArray(new int[] {}));
   }
 
   // should handle arrays with negative numbers
   @Test
   void negative() {
-    assertEquals(sumArray(new int[] { -1, -2, -3, -4, -5 }), -15);
+    assertEquals(-15, sumArray(new int[] { -1, -2, -3, -4, -5 }));
   }
 
   // should return the number itself for single-element arrays
   @Test
   void single() {
-    assertEquals(sumArray(new int[] { 5 }), 5);
-    assertEquals(sumArray(new int[] { -10 }), -10);
+    assertEquals(5, sumArray(new int[] { 5 }));
+    assertEquals(-10, sumArray(new int[] { -10 }));
   }
 
   // should handle large arrays
@@ -39,6 +39,6 @@ public class Exercise1bTest {
   void big() {
     var largeArray = IntStream.range(1, 101).toArray();
     var expectedSum = 5050;
-    assertEquals(sumArray(largeArray), expectedSum);
+    assertEquals(expectedSum, sumArray(largeArray));
   }
 }
